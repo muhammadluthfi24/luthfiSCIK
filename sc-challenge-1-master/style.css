@@ -1,0 +1,239 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(214, 245, 245);
+    
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    padding: 60px 60px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 80%;
+    margin: 25px auto;
+    text-align: justify;
+}
+
+
+.departement {
+    margin-bottom: 95px;
+}
+#Depr_Pendidikan{
+    margin-bottom: 75px;
+    padding-top: 20px;
+}
+#Depr_Keanggotaan{
+    margin-bottom: 75px;
+}
+#Depr_Humas{
+    margin-bottom: 75px;
+}
+#Depr_MinBa{
+    margin-bottom: 75px;
+}
+#Depr_publikasi{
+    margin-bottom: 75px;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(240, 235, 235, 0.1);
+    border-radius: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* TODO: Tugas 7 - Responsive Styles */
+/* 1. Tambahkan aturan media query untuk layar dengan lebar kurang dari 768px */
+@media only screen and (max-width: 768px) {
+    body {
+        /* Sesuaikan gaya untuk tata letak pada layar kecil */
+        background-image: url(space.jpg);
+    }
+
+    header {
+        /* Sesuaikan gaya header pada layar kecil */
+        background-color: #3498db;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-right: 0px;
+        
+
+    }
+
+    header img {
+        /* Sesuaikan ukuran gambar logo pada layar kecil */
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+    nav ul {
+        /* Sesuaikan gaya daftar menu pada layar kecil */
+        list-style-type: none;
+        margin: 10px;
+        padding: 0px;
+    }
+
+    nav ul li {
+        /* Sesuaikan gaya setiap item menu pada layar kecil */
+        margin-right: 20px;
+    }
+
+    section {
+        /* Sesuaikan gaya section pada layar kecil */
+        width: 500px;
+    }
+.departement {
+    background-color: rgb(236, 240, 239);
+}
+    
+        /* Sesuaikan gaya departemen pada layar kecil */
+        #Depr_Pendidikan {
+        margin-bottom: 30px;
+        background-color: rgb(234, 254, 254);
+        padding: 1px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #Depr_Keanggotaan{
+        margin-bottom: 30px;
+        background-color: rgb(234, 254, 254);
+        padding: 1px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #Depr_Humas{
+        margin-bottom: 30px;
+        background-color: rgb(234, 254, 254);
+        padding: 1px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #Depr_MinBa{
+        margin-bottom: 30px;
+        background-color: rgb(234, 254, 254);
+        padding: 1px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #Depr_Publikasi{
+        margin-bottom: 30px;
+        background-color: rgb(234, 254, 254);
+        padding: 1px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+    form {
+        /* Sesuaikan gaya formulir kontak pada layar kecil */
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        background-color: #e0eef7;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+
+    label {
+        /* Sesuaikan gaya label pada layar kecil */
+        font-weight: bold;
+        color: #333;
+    }
+
+    input,
+    textarea {
+        /* Sesuaikan gaya input dan textarea pada layar kecil */
+    }
+
+    button {
+        /* Sesuaikan gaya tombol pada layar kecil */
+        background-color: #3498db;
+    }
+
+    button:hover {
+        /* Sesuaikan gaya tombol hover pada layar kecil */
+    }
+
+    footer {
+        /* Sesuaikan gaya footer pada layar kecil */
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px ;
+        
+    
+    }
+}
